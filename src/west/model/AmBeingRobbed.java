@@ -21,7 +21,7 @@ public class AmBeingRobbed extends State<Miner> {
 	  }
 	   
 	  public void enter(Miner miner){
-		  ///Oh no! A robbery!
+		  ///Oh no! A robbery! This might need a different order of operations
 		  System.out.println(miner.getName() + " Egads! A robbery!");
 	  }
 	  public void execute(Miner miner){
